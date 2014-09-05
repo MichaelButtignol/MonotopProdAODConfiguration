@@ -1,0 +1,1000 @@
+    6  cmsDriver.py Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+    7  cmsDriver.py ../../../../../../../../../../../../../../../../../../../../../opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+    8  cmsDriver.py   --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+    9  cmsDriver.py Configuration/../Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   10  cmsDriver.py Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   11  cmsDriver.py H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   12  cmsDriver.py --help
+   13  cmsDriver.py --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/test_config_TAU.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   14  cmsRun --filein_GEN_VALIDATION.py 
+   15  cmsDriver.py file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/test_config_TAU.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   16  cmsDriver.py ../Generator/  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   17  cmsDriver.py ../Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   18  cp /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/test_config_TAU.py /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/ 
+   19  ls 
+   20  rm --filein_GEN_VALIDATION.py H200ZZ4L_cfi_py_GEN_VALIDATION.py
+   21  rm H200ZZ4L_cfi_py_GEN_VALIDATION.py
+   22  ls 
+   23  rm "--filein_GEN_VALIDATION.py" 
+   24  ls
+   25  rm '--filein_GEN_VALIDATION.py' 
+   26  rm ./--filein_GEN_VALIDATION.py
+   27  ls
+   28  cd src/MCProd_8TeV/
+   29  ls 
+   30  cmsDriver.py Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   31  cmsDriver.py H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   32  cmsDriver.py ../H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   33  cmsDriver.py ~/opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   34  cmsDriver.py /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   35  ls /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/
+   36  ls /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py
+   37  ls /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py
+   38  ll /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py
+   39  ls 
+   40  ll config_prod.py
+   41  ll /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/
+   42  ll /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator
+   43  cmsDriver.py ../python/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   44  cmsDriver.py test_config_TAU.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   45  cmsDriver.py test_confi  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   46  cmsDriver.py ../../../../../../../../../../../../../../../../../../../../../../../../../../opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/test_config_TAU.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   47  cmsDriver.py --help
+   48  man cmsDriver.py
+   49  cmsDriver.py --help
+   50  cmsenv
+   51  top
+   52  *
+   53  top 
+   54  l
+   55  ls
+   56  ll
+   57  top 
+   58  cmsenv
+   59  cmsDriver.py test_confi  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   60  cmsenv
+   61  cmsDriver.py test_confi  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   62  cmsDriver.py   --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   63  cmsDriver.py file:mbuttign@sbgui8:/opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/H200ZZ4L_cfi.py  --conditions auto:mc -s GEN,VALIDATION:genvalid_w --datatier GEN --eventcontent RAWSIM -n 10 --no_exec
+   64  cd /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/python/Configuration/Generator/
+   65  ls
+   66  grep -nr "Pythia8GeneratorFilter" ./
+   67  gedit QCD_Pt_30_8TeV_pythia8_cff.py Pythia8_PhotonJetpt15_20_10TeV_8TeV_cff.py ADDMonoJet_8TeV_d3MD3_cfi.py MinBias_8TeV_pythia8_cff.py &
+   68  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi.py -s GEN:ProductionFilterSequence,SIM,DIGI --conditions auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --datatier 'GEN-SIM-RAW' --eventcontent RAWSIM -n 10 --no_exec
+   69  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi.py -s GEN,SIM,DIGI --conditions auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --datatier 'GEN-SIM-RAW' --eventcontent RAWSIM -n 10 --no_exec
+   70  cd /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/
+   71  ls
+   72  rm -rf 505.0_WToLNu_TuneZ2star_8TeV_pythia6-tauola+WToLNu_TuneZ2star_8TeV_pythia6-tauola+HARVGEN H200ZZ4L_cfi_py_GEN_VALIDATION.py WToLNu_TuneZ2star_8TeV_pythia6_tauola_cff_GEN_VALIDATION.py WToLNu_TuneZ2star_8TeV_pythia6_tauola_cff_GEN_VALIDATION.root config_prod_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py config_prod_py_GEN_SIM_DIGI.root config_prod_py_GEN_SIM_DIGI.py~ config_prod_py_GEN_SIM_DIGI.py config_prod_py_GEN.root config_prod_py_GEN.py config_prod.py~ 
+   73  ls
+   74  rm -rf "--filein_GEN_VALIDATION.py" 
+   75  rm ./--filein_GEN_VALIDATION.py
+   76  ll
+   77  rm runall-report-step123-.log test_config_TAU.py 
+   78  ls
+   79  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi.py -s GEN,SIM,DIGI --conditions auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --datatier 'GEN-SIM-RAW' --eventcontent RAWSIM -n 10 --no_exec
+   80  ls 
+   81  vim ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.py 
+   82  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.py 
+   83  ls 
+   84  root -l ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.root 
+   85  ls
+   86  cd ../IPHCProducer/MiniTreeProducer/
+   87  cd test/
+   88  gedit minitreeproducer_5311_cfg.py &
+   89  sl
+   90  ls 
+   91  cmsRun minitreeproducer_5311_cfg.py
+   92  ls
+   93  root -l NTuple_test_S1.root 
+   94  cmsRun minitreeproducer_5311_cfg.py > error_report.txt
+   95  vim error_report.txt 
+   96  gedit ttt 
+   97  vim error_report.txt 
+   98  ls
+   99  cmsRun minitreeproducer_5311_cfg.py
+  100  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  101  vim error_report.txt
+  102  ls 
+  103  vim ../../../help_prod.txt 
+  104  cmsRun minitreeproducer_5311_cfg.py
+  105  cmsRun minitreeproducer_5311_cfg.py
+  106  diranalysis 
+  107  ls
+  108  cd ../../../../IPHCProducer/
+  109  l
+  110  sls
+  111  ls
+  112  cd MiniTreeProducer/
+  113  ls
+  114  proxy
+  115  cmsenv
+  116  cd test/
+  117  ls
+  118  cmsRun minitreeproducer_5311_cfg.py
+  119  cmsRun minitreeproducer_5311_cfg.py ß»ł»·µłĸĸħŋłæ««€¶¶ŧŧ←↓↓→→øøþþ¤ > error_report.txt 
+  120  ls 
+  121  cmsRun minitreeproducer_5311_cfg.py
+  122  cmsRun minitreeproducer_5311_cfg.py 
+  123  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  124  vim error_report.txt 
+  125  grep -nr "TimeReport" ../../../
+  126  grep -nr "T---Report" ../../../
+  127  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  128  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  129  gedit minitreeproducer_5311_cfg.py &
+  130  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  131  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  132  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  133  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  134  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 
+  135  vim error_report.txt 
+  136  cmsRun minitreeproducer_5311_cfg.py > error_report.txt 2>&1
+  137  vim error_report.txt 
+  138  ll
+  139  vim minitreeproducer_5311_cfg.py
+  140  cat minitreeproducer_5311_cfg.py | grep root
+  141  root -l /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.root
+  142  ll
+  143  vim minitreeproducer_53X_cfg.py
+  144  vim minitreeproducer_5311_cfg.py
+  145  root -l /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.root
+  146  cd ../../../MCProd_8TeV/
+  147  ls
+  148  history 
+  149  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi_py -s GEN,SIM,DIGI,L1,DIGI2RAW,HLT --conditions auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --datatier 'GEN-SIM-RAW' --eventcontent RAWSIM -n 10 --no_exec
+  150  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py 
+  151  ls 
+  152  diff ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.py ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py 
+  153  gedit ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI*.py &
+  154  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py 
+  155  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi.py -s GEN,SIM,DIGI,L1,DIGI2RAW,HLT --conditions auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --datatier 'GEN-SIM-RAW' --eventcontent RAWSIM -n 10 --no_exec
+  156  ls
+  157  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py
+  158  diff ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI.py ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py
+  159  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi.py -s GEN,SIM,DIGI,L1,DIGI2RAW,HLT:GRun --conditions FrontierConditions_GlobalTag,auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --eventcontent RAWSIM -n 10 --no_exec
+  160  cmsDriver.py ADDMonoJet_8TeV_d3MD3_cfi.py -s GEN,SIM,DIGI,L1,DIGI2RAW,HLT:GRun --conditions auto:mc --filein file:/opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/MCProd_8TeV/prod_S1_mres1000p0_mchi100p0.lhe --eventcontent RAWSIM -n 10 --no_exec
+  161  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py
+  162  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py
+  163  cmsRun ADDMonoJet_8TeV_d3MD3_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_HLT.py
+  164  grep -nr 'HLT_Mu12_eta2p1_L1Mu10erJetC12WdEtaPhi1DiJetsC_v7' ./
+  165  ls
+  166  cd .. 
+  167  mkdir PROD
+  168  cd PROD/
+  169  ls 
+  170  cmsenv
+  171  eval `scram runtime -sh`
+  172  scram b
+  173  scram b
+  174  cmsDriver.py step1 --filein lhe:10093 --fileout
+  175  file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN
+  176  --conditions START53_V7C::All --step NONE  --python_filename
+  177  TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise
+  178  Configuration/DataProcessing/Utils.addMonitoring -n 2880ls
+  179  scram b
+  180  cmsDriver.py step1 --filein lhe:10093 --fileout
+  181  file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN
+  182  --conditions START53_V7C::All --step NONE  --python_filename
+  183  TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise
+  184  cp ../MCProd_8TeV/*.lhe ./
+  185  ls 
+  186  cmsDriver.h step1 --filein prod_S1_mres1000p0_mchi100p0.lhe --fileout file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN
+  187  --conditions START53_V7C::All --step NONE  --python_filename
+  188  TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise
+  189  cmsDriver.h step1 --filein prod_S1_mres1000p0_mchi100p0.lhe --fileout file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN --conditions START53_V7C::All --step NONE --python filename TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 5000  
+  190  cmsDriver.py step1 --filein prod_S1_mres1000p0_mchi100p0.lhe --fileout file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN --conditions START53_V7C::All --step NONE --python filename TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 5000  
+  191  ls 
+  192  ll
+  193  cmsDriveer.py --help
+  194  cmsDriver.py --help
+  195  rm filename 
+  196  gedit prod_step1.txt p&
+  197  cmsDriver.py step1 --filein prod_S1_mres1000p0_mchi100p0.lhe --fileout file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN --conditions START53_V7C::All --step NONE --python config_step1.py TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 5000  
+  198  cmsRun config_step1.py 
+  199  ls 
+  200  cmsDriver.py step1 --filein prod_S1_mres1000p0_mchi100p0.lhe --fileout file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN --conditions START53_V7C::All --step NONE --python_filename=config_step1.py TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 5000  
+  201  ls
+  202  cmsRun config_step1.py 
+  203  vim prod_step1.txt
+  204  cmsDriver.py step1 --filein prod_S1_mres1000p0_mchi100p0.lhe --fileout file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN --conditions START53_V7C::All --step NONE --python_filename=TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 5000  
+  205  ls
+  206  rm config_step1.py 
+  207  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  208  source prod_step1.txt
+  209  source prod_step1.txt
+  210  diranalysis 
+  211  ls 
+  212  cd ../../../../PROD/
+  213  ls 
+  214  vim prod_step1.txt
+  215  source prod_step1.txt
+  216  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  217  cd ../../../
+  218  ls 
+  219  cp CMSSW_5_3_11/src/PROD/prod_step1.txt ./
+  220  cp CMSSW_5_3_11/src/PROD/*.lhe ./
+  221  ls 
+  222  vim prod_step1.txt 
+  223  gedit prod_step1.txt &
+  224  rm prod_S1_mres1000p0_mchi100p0.lhe 
+  225  source prod_step1.txt
+  226  scram list CMSSW 
+  227  ls
+  228  source prod_step1.txt
+  229  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  230  cd ../../
+  231  ls 
+  232  source prod_step1.txt
+  233  ls 
+  234  scram list CMSSW 
+  235  cmsenv
+  236  cmsrel CMSSW_5_3_14
+  237  source  /afs/cern.ch/cms/cmsset_default.sh
+  238  cmsrel CMSSW_5_3_14
+  239  echo SCRAM_ARCH
+  240  SCRAM_ARCH
+  241  $SCRAM_ARCH
+  242  cd CMSSW_5_3_11/src 
+  243  cmsenv 
+  244  cd ../../
+  245  source prod_step1.txt 
+  246  ls 
+  247  scram 
+  248  scram p CMSSW CMSSW_5_3_14
+  249  cd ../
+  250  ls 
+  251  cmsrel CMSSW_5_3_14
+  252  ls 
+  253  cd Analysis_8TeV/
+  254  ls 
+  255  mkdir TEST
+  256  cd TEST/
+  257  cmsrel CMSSW_5_3_11
+  258  scram p CMSSW CMSSW_5_3_14
+  259  scram p CMSSW CMSSW_5_3_11
+  260  scram list CMSSW
+  261  proxy 
+  262  proxy 
+  263  cmsrel CMSSW_5_3_14
+  264  ls
+  265  mpgout 
+  266  logout 
+  267  diranalysis 
+  268  cd ../../../../PROD/
+  269  source prod_ 
+  270  source prod_step1.txt
+  271  ls 
+  272  vim prod_step1.txt
+  273  scram list CMSSW 
+  274  gedit prod_step1.txt &
+  275  ls 
+  276  source prod_step1.txt
+  277  ls 
+  278  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  279  ls /build/muz/rel/5.3.11/slc5/tmp/BUILDROOT/91badddb07c5df2dac8ff8798470877d/opt/cmssw/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/src/Utilities/StorageFactory/src/
+  280  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  281  cd ../../
+  282  rm -r CMSSW_5_3_14/
+  283  cd ../../
+  284  cd ../
+  285  ls
+  286  source prod_step1.txt
+  287  cmsrel CMSSW_5_3_14
+  288  scram list CMSSW
+  289  ui8 
+  290  logiut 
+  291  logout 
+  292  diruiwork  
+  293  ls 
+  294  cmsrel CMSSW_5_3_14
+  295  cmsrel CMSSW_5_3_11
+  296  ls
+  297  rm -r CMSSW_5_3_11/
+  298  scram list CMSSW
+  299  logout 
+  300  cd /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_6_0_0/src
+  301  cmsenv 
+  302  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  303  exit
+  304  ls
+  305  cd /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_6_0_0/src/
+  306  cmsenv
+  307  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  308  ssh -X mbuttign@sbgui5
+  309  exit
+  310  ls 
+  311  diran 
+  312  cd ../../../../
+  313  diranalysis 
+  314  ls 
+  315  cd ../../../../
+  316  ls
+  317  cd PROD/
+  318  cd ../../../
+  319  ls 
+  320  scram list CMSSW
+  321  scram p CMSSW CMSSW_6_0_0
+  322  cd CMSSW_6_0_0/
+  323  cd src/ 
+  324  cmsenv
+  325  cp ../../prod_step1.txt ./
+  326  vim prod_step1.txt  
+  327  cp ../../CMSSW_5_3_11/src/PROD/prod_S1_mres1000p0_mchi100p0.lhe ./
+  328  mv prod_step1.txt ../../
+  329  ls
+  330  cd ../../
+  331  ls 
+  332  rm prod_step1.txt~
+  333  ls 
+  334  vim prod_step1.txt 
+  335  source prod_step1.txt 
+  336  vim prod_step1.txt 
+  337  source prod_step1.txt 
+  338  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  339  sl 
+  340  ls 
+  341  cd ../..
+  342  ls 
+  343  rm TOP-Summer12pLHE-00033_1_cfg.py 
+  344  ls 
+  345  rm -r TEST/
+  346  ls 
+  347  cmsRun TOP-Summer12pLHE-00033_1_cfg.py
+  348  cd CMSSW_6_0_0/src/
+  349  cmsenv
+  350  cmsRun TOP-Summer12pLHE-00033_1_cfg.py
+  351  ls 
+  352  ls /build/da/build-CMSSW_6_0_0/tmp/BUILDROOT/eb3a95da42ffc2b053d7fd43bb803d40/opt/cmssw/slc5_amd64_gcc462/cms/cmssw/CMSSW_6_0_0/src/Utilities/
+  353  ls
+  354  ls /build/
+  355  ui5
+  356  ssh -X mbuttign@ui6
+  357  ssh -X mbuttign@sbgui6
+  358  cmsRun TOP-Summer12pLHE-00033_1_cfg.py
+  359  scramv1 b -j6
+  360  scramv1 b -j6
+  361  scramv1 b -j6
+  362  ll
+  363  cd ../../
+  364  LS
+  365  vim prod_step1.txt 
+  366  ls 
+  367  cd CMSSW_5_3_11/
+  368  cd src/
+  369  ls
+  370  cd PROD/
+  371  ls
+  372  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  373  ll
+  374  cmsenv
+  375  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  376  vim TOP-Summer12pLHE-00033
+  377  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  378  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  379  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  380  ll
+  381  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  382  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  383  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  384  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  385  cd ../..
+  386  cd ..
+  387  ls 
+  388  rm -r CMSSW_6_0_0/
+  389  cd CMSSW_5_3_11/src/
+  390  ls 
+  391  rm TOP*
+  392  ls
+  393  cd PROD/
+  394  ls
+  395  vim prod_step1.txt
+  396  cmsenv
+  397  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  398  history
+  399   cmsRun TOP-Summer12pLHE-00033_1_cfg.py > error_report.txt 2>&1
+  400  vim error_report.txt 
+  401  ls
+  402  gedit prod_step2.txt &
+  403  source  /afs/cern.ch/cms/cmsset_default.sh
+  404  export SCRAM_ARCH=slc5_amd64_gcc462
+  405  eval `scram runtime -sh`
+  406  curl -s
+  407  curl -s https://raw.github.com/cms-sw/genproductions/V03-00-00/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  408  curl -s https://raw.github.com/cms-sw/genproductions/V03-00-00/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --retry 2 --create-dirs -o Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  409  ls 
+  410  scram b
+  411  vim TOP-Summer12pLHE-00033_1_cfg.py 
+  412  source prod_step2.txt
+  413  ls 
+  414  source prod_step1.txt
+  415  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  416  ls
+  417  source prod_step2.txt
+  418  cmsRun TOP-Summer12-00033_2_cfg.py 
+  419  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  420  cmsRun TOP-Summer12-00033_2_cfg.py 
+  421  diff TOP-Summer12-00033_1_cfg.py TOP-Summer12-00033_2_cfg.py 
+  422  ls 
+  423  rm prod_step1.txt~ prod_step2.txt~
+  424  diff TOP-Summer12-00033_1_cfg.py TOP-Summer12-00033_2_cfg.py 
+  425  ls 
+  426  ls ../../../
+  427  vim ../../../prod_step1.txt 
+  428  rm ../../../prod_step1.txt 
+  429  ls 
+  430  rm prod_step2.txt~
+  431  source prod_step1.txt 
+  432  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  433  cmsRun TOP-Summer12pLHE-00033_1_cfg.py > error_report.txt 
+  434  source prod_step2.txt 
+  435  diff TOP-Summer12-00033_1_cfg.py TOP-Summer12-00033_2_cfg.py 
+  436  ls
+  437  rm TOP-Summer12-00033_1_cfg.py TOP-Summer12-00033.root TOP-Summer12-00033_2_cfg.py TOP-Summer12pLHE-00033.root TOP-Summer12pLHE-00033_1.root TOP-Summer12pLHE-00033_1_cfg.py prod_step2.txt~ prod_step1.txt~ 
+  438  rm -r Configuration/
+  439  ls 
+  440  source prod_step1.txt 
+  441  ls
+  442  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  443  ls
+  444  source prod_step2.txt 
+  445  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  446  ls
+  447  cmsRun TOP-Summer12-00033_2_cfg.py 
+  448  diff TOP-Summer12pLHE-00033_1_cfg.py TOP-Summer12-00033_2_cfg.py 
+  449  diff TOP-Summer12pLHE-00033_1_cfg.py TOP-Summer12-00033_2_cfg.py 
+  450  cmsRun TOP-Summer12-00033_2_cfg.py 
+  451  source prod_step2.txt
+  452  cmsRun TOP-Summer12-00033_2_cfg.py 
+  453  ls
+  454  source prod_step2.txt
+  455  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  456  cmsRun TOP-Summer12-00033_2_cfg.py 
+  457  root -l TOP-Summer12pLHE-00033_1.root 
+  458  root -l TOP-Summer12-00033_2.root 
+  459  cmsRun TOP-Summer12-00033_2_cfg.py > error_report.txt 2>&1
+  460  vim error_report.txt 
+  461  vim TOP-Summer12-00033_2_cfg.py
+  462  vim TOP-Summer12-00033_2_cfg.py
+  463  cmsRun TOP-Summer12-00033_2_cfg.py
+  464  vim TOP-Summer12-00033_2_cfg.py 
+  465  source prod_step1.txt
+  466  cmsRun TOP-Summer12pLHE-00033_1_cfg.py 
+  467  cmsRun TOP-Summer12pLHE-00033_1_cfg.py > error_report.txt 
+  468  vim error_report.txt 
+  469  cmsRun TOP-Summer12pLHE-00033_1_cfg.py >& error_report.txt 
+  470  vim error_report.txt 
+  471  edmDumpEventContent TOP-Summer12pLHE-00033_1.root 
+  472  source prod_step2
+  473  source prod_step2.txt
+  474  cmsRun TOP-Summer12-00033_2_cfg.py 
+  475  edmDumpEventContent TOP-Summer12-00033_2.root 
+  476  vim TOP-Summer12-00033_2_cfg.py 
+  477  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  478  grep Pythia8 Configuration/GenProduction/python/EightTeV/*
+  479  ls
+  480  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  481  scram b
+  482  cmsRun TOP-Summer12-00033_2_cfg.py 
+  483  ls
+  484  emacs -nw TOP-Summer12-00033_2_cfg.py 
+  485  cmsRun TOP-Summer12-00033_2_cfg.py 
+  486  vim TOP-Summer12-00033_2_cfg.py 
+  487  emacs -nw TOP-Summer12-00033_2_cfg.py 
+  488  vim TOP-Summer12-00033_2_cfg.py 
+  489  cmsRun TOP-Summer12-00033_2_cfg.py 
+  490  cmsRun TOP-Summer12-00033_2_cfg.py 
+  491  emacs -nw TOP-Summer12-00033_2_cfg.py 
+  492  vim TOP-Summer12-00033_2_cfg.py 
+  493  vim TOP-Summer12-00033_2_cfg.py 
+  494  cmsRun TOP-Summer12-00033_2_cfg.py 
+  495  vim TOP-Summer12-00033_2_cfg.py 
+  496  cmsRun TOP-Summer12-00033_2_cfg.py 
+  497  vim TOP-Summer12-00033_2_cfg.py 
+  498  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  499  vim TOP-Summer12-00033_2_cfg.py 
+  500  ls
+  501  more prod_step
+  502  more prod_step1.txt 
+  503  more prod_step2.txt 
+  504  ls Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  505  ls
+  506  cp Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py ./
+  507  cmsDriver.py Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --filein file:TOP-Summer12p
+  508  LHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamsp
+  509  ot Realistic8TeVCollision --step GEN,SIM  --python_filename TOP-Summer12-00033_2_cfg.py --no_exec
+  510  cmsDriver.py Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --filein file:TOP-Summer12pLHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamsp
+  511  cmsDriver.py Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --filein file:TOP-Summer12pLHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamspot Realistic8TeVCollision --step GEN,SIM  --python_filename TOP-Summer12-00033_2_cfg.py --no_exec --customise Configuration/DataProcessing/Uti
+  512  cmsDriver.py Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --filein file:TOP-Summer12pLHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamspot Realistic8TeVCollision --step GEN,SIM  --python_filename TOP-Summer12-00033_2_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 10
+  513  emacs -nw TOP-Summer12-00033_2_cfg.py
+  514  ls
+  515  more Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  516  cp Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py eric_cff.py
+  517  cmsDriver.py eric_cff.py --filein file:TOP-Summer12pLHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamspot Realistic8TeVCollision --step GEN,SIM  --python_filename TOP-Summer12-00033_2_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 10
+  518  emacs -nw TOP-Summer12-00033_2_cfg.py
+  519  pwd
+  520  mkdir ../Configuration/Generator
+  521  mkdir ../Configuration/Generator/pytjon
+  522  mkdir ../Configuration/Generator/python
+  523  cp eric_cff.py ../Configuration/Generator/python/
+  524  cmsDriver.py eric_cff.py --filein file:TOP-Summer12pLHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamspot Realistic8TeVCollision --step GEN,SIM  --python_filename TOP-Summer12-00033_2_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 10
+  525  emacs -nw TOP-Summer12-00033_2_cfg.py
+  526  ls
+  527  cmsDriver.py Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --filein file:TOP-Summer12pLHE-00033_1.root --fileout file:TOP-Summer12-00033_2.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions START53_V7C::All --beamspot Realistic8TeVCollision --step GEN,SIM  --python_filename TOP-Summer12-00033_2_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 10
+  528  emacs -nw TOP-Summer12-00033_2_cfg.py
+  529  ls
+  530  ls ..
+  531  ls 
+  532  gedit TOP-Summer12-00033_2_cfg.py eric_cff.py &
+  533  cmsRun TOP-Summer12-00033_2_cfg.py
+  534  cmsRun TOP-Summer12-00033_2_cfg.py
+  535  cmsRun TOP-Summer12-00033_2_cfg.py
+  536  cmsRun TOP-Summer12-00033_2_cfg.py
+  537  vim Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py 
+  538  cmsRun TOP-Summer12-00033_2_cfg.py
+  539  cmsRun TOP-Summer12-00033_2_cfg.py
+  540  cmsRun TOP-Summer12-00033_2_cfg.py
+  541  cmsRun TOP-Summer12-00033_2_cfg.py
+  542  grep "MGparamCMS" ./
+  543  grep "MGParamCMS" ./
+  544  grep "MGParamCMS" ../
+  545  grep "MGParamCMS" ../../
+  546  grep "MGParamCMS" ../../
+  547  cmsRun TOP-Summer12-00033_2_cfg.py
+  548  cmsRun TOP-Summer12-00033_2_cfg.py
+  549  cmsRun TOP-Summer12-00033_2_cfg.py
+  550   vim *.lhe
+  551  ls 
+  552  vim ../../../../Production/run_card.dat 
+  553  vim ../../../../Production/pythia_card.dat 
+  554  vim ../../../../Production/prod_res/
+  555   vim *.lhe
+  556  ls 
+  557  cd ../
+  558  ls 
+  559  mkdir PROD_Standalone
+  560  cd PROD_Standalone/
+  561  ls 
+  562  gedit config.py &
+  563  gedit ../PROD/TOP-Summer12pLHE-00033_1_cfg.py &
+  564  grep -nr "hepmc" ../../../../Production/
+  565  ls ../PROD/*.lhe
+  566  du -hs ./
+  567  du -hs /opt/sbg/data/data4/cms/mbuttign/
+  568  ls
+  569  ls 
+  570  cmsRun config.py
+  571  cmsRun config.py
+  572  cmsRun config.py
+  573  ls 
+  574  gedit prod_step_3.txt &
+  575  gedit prod_step3.txt &
+  576  source prod_step3.txt
+  577  ls
+  578  cd src/PROD_Standalone/
+  579  ls
+  580  cmsRun TOP-Summer12-00033_3_cfg.py 
+  581  vim TOP-Summer12-00033_3_cfg.py 
+  582  vim TOP-Summer12-00033_3_cfg.py 
+  583  cmsRun TOP-Summer12-00033_3_cfg.py 
+  584  cmsRun TOP-Summer12-00033_3_cfg.py 
+  585  cmsRun TOP-Summer12-00033_3_cfg.py 
+  586  cmsRun TOP-Summer12-00033_3_cfg.py 
+  587  ls 
+  588  ls 
+  589  cmsRun TOP-Summer12-00033_3_cfg.py 
+  590  ls
+  591  ll
+  592  ll
+  593  cmsRun TOP-Summer12-00033_3_cfg.py 
+  594  cmsRun TOP-Summer12-00033_3_cfg.py 
+  595  cmsRun TOP-Summer12-00033_3_cfg.py 
+  596  cmsRun TOP-Summer12-00033_3_cfg.py 
+  597  vim TOP-Summer12-00033_3_cfg.py 
+  598  edmConfigBrowser TOP-Summer12-00033_3_cfg.py 
+  599  ll
+  600  root HE
+  601  root HE
+  602  root HepMC_GEN.root 
+  603  ls
+  604  cmsRun config.py
+  605  cmsRun TOP-Summer12-00033_3_cfg.py
+  606  edmDumpEventContent HepMC_GEN.root 
+  607  edmDumpEventContent HepMC_GEN.root 
+  608  cmsRun TOP-Summer12-00033_3_cfg.py
+  609  cmsRun TOP-Summer12-00033_3_cfg.py
+  610  cmsRun TOP-Summer12-00033_3_cfg.py
+  611  cmsRun HepMC_GEN.root
+  612  edmDumpEventContent HepMC_GEN.root
+  613  cmsRun TOP-Summer12-00033_3_cfg.py
+  614  cmsRun TOP-Summer12-00033_3_cfg.py
+  615  cmsRun TOP-Summer12-00033_3_cfg.py
+  616  cmsRun TOP-Summer12-00033_3_cfg.py
+  617  cmsRun TOP-Summer12-00033_3_cfg.py
+  618  cmsRun TOP-Summer12-00033_3_cfg.py
+  619  root -l HepMC_GEN.root 
+  620  root.exe HepMC_GEN.root 
+  621  cmsDriver.py --help
+  622  ls
+  623  cmsRun TOP-Summer12-00033_3_cfg.py
+  624  cmsRun TOP-Summer12-00033_3_cfg.py
+  625  edmDumpEventContent sample_test.root 
+  626  edmDumpEventContent HepMC_GEN.root 
+  627  cp ../PROD/prod_step1.txt ./
+  628  vim prod_step1.txt 
+  629  cp ../PROD/prod_step2.txt ./
+  630  vim prod_step2.txt 
+  631  cp ../PROD/TOP-Summer12-00033_2_cfg.py ./
+  632  vim TOP-Summer12-00033_2_cfg.py 
+  633  cmsRun TOP-Summer12-00033_2_cfg.py
+  634  cmsRun TOP-Summer12-00033_2_cfg.py
+  635  ls 
+  636  rm TOP-Summer12-00033_2_cfg.py TOP-Summer12-00033_2_cfg.py~ 
+  637  vim prod_step1.txt 
+  638  mv prod_step2.txt prod_stepSIM.txt
+  639  source prod_stepSIM.txt
+  640  ls
+  641  cmsRun TOP-Summer12-00033_SIM_cfg.py
+  642  cmsRun TOP-Summer12-00033_SIM_cfg.py
+  643  ls
+  644  cmsRun TOP-Summer12-00033_SIM_cfg.py
+  645  source prod_stepSIM.txt
+  646  cmsRun TOP-Summer12-00033_SIM_cfg.py
+  647  vim TOP-Summer12-00033_SIM_cfg.py
+  648  ls
+  649  ls 
+  650  edmDumpEventContent HepMC_GEN.root 
+  651  edmDumpEventContent sample_test.root 
+  652  sl 
+  653  diruiwork 
+  654  ls
+  655  cd Production/
+  656  ls
+  657  ./MadGraph5_v1_5_3/bin/mg5 
+  658  ls 
+  659  ls TEST_PYTHIA/
+  660  ls TEST_PYTHIA/Events/
+  661  ls TEST_PYTHIA/Events/run_01/
+  662  cp TEST_PYTHIA/Events/run_01/unweighted_events.lhe.gz /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/PROD_Standalone/
+  663  cd /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/PROD_Standalone/
+  664  ls
+  665  tar -xvzf unweighted_events.lhe.gz 
+  666  ungzip unweighted_events.lhe.gz 
+  667  unzip unweighted_events.lhe.gz 
+  668  gunzip unweighted_events.lhe.gz 
+  669  ls
+  670  vim prod_step1.txt 
+  671  ls ../PROD/
+  672  ls 
+  673  vim prod_step1.txt 
+  674  cmsDriver.py step1 --filein lhe:10093 --fileout
+  675  file:TOP-Summer12pLHE-00033.root --mc --eventcontent LHE --datatier GEN
+  676  --conditions START53_V7C::All --step NONE  --python_filename
+  677  TOP-Summer12pLHE-00033_1_cfg.py --no_exec --customise
+  678  Configuration/DataProcessing/Utils.addMonitoring -n
+  679  source prod_stepGEN.txt
+  680  cmsRun TOP-Summer12pLHE-00033_GEN_cfg.py 
+  681  cmsRun TOP-Summer12pLHE-00033_GEN_cfg.py 
+  682  ls
+  683  edmDumpEventContent TOP-Summer12pLHE-00033_GEN.root 
+  684  ls
+  685  cp ../PROD/prod_step2.txt./
+  686  cp ../PROD/prod_step2.txt ./
+  687  ls
+  688  source prod_step2.txt 
+  689   cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  690  ls 
+  691  ls TOP-Summer12-00033_GEN_PYTHIA_cfg.py
+  692  vim TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  693  ls $CMSSW_RELEASE_BASE/Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  694  ls $CMSSW_RELEASE_BASE/Configuration/GenProduction/python/EightTeV/
+  695  ls $CMSSW_RELEASE_BASE/Configuration/GenProduction/python/
+  696  ls $CMSSW_RELEASE_BASE/Configuration/GenProduction/
+  697  ls $CMSSW_RELEASE_BASE/Configuration/
+  698  ls $CMSSW_RELEASE_BASE/
+  699  source prod_step2.txt 
+  700  cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  701  cp /opt/exp_soft/cms/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_11/src/Configuration/Generator/python/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_cff.py ./pythia6_cff.py
+  702  source prod_step2
+  703  source prod_step2.txt 
+  704  cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  705  source prod_step2.txt 
+  706  cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  707  source prod_step2.txt 
+  708  cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  709  vim ../PROD/prod_step2.txt
+  710  pwd
+  711  locate cmsDriver.py
+  712  ls
+  713  cmsDriver.py 
+  714  find cmsDriver.py 
+  715  ls
+  716  cd ..
+  717  cd ..
+  718  ls
+  719  cd bin
+  720  ls
+  721  cd slc5_amd64_gcc462/
+  722  ls
+  723  cd ..
+  724  cd ..
+  725  ls
+  726  cd config/
+  727  ls
+  728  cd SCRAM
+  729  ls
+  730  cd ..
+  731  cd ..
+  732  ls
+  733  cd cfipython/
+  734  ls
+  735  cd slc5_amd64_gcc462/
+  736  ls
+  737  cd PhysicsTools/
+  738  ls
+  739  cd ../..
+  740  ls
+  741  cd ..
+  742  ls
+  743  cd config/
+  744  ls
+  745  cd ..
+  746  ls
+  747  cd external/
+  748  ls
+  749  cd slc5_amd64_gcc462/
+  750  ls
+  751  cd ../..
+  752  ls
+  753  cd python/
+  754  ls
+  755  cd ..
+  756  ls
+  757  ls
+  758  cd src
+  759  ls
+  760  cd PROD
+  761  ls
+  762  cd ..
+  763  cd PROD_Standalone/
+  764  ls
+  765  cp $CMSSW_RELEASE_BASE/Configuration/PyReleaseValidation/scripts/cmsDriver.py ./
+  766  ls
+  767  cp $CMSSW_RELEASE_BASE/Configuration/PyReleaseValidation/scripts/cmsDriver.py ./
+  768  cp $CMSSW_RELEASE_BASE/src/Configuration/PyReleaseValidation/scripts/cmsDriver.py ./
+  769  ls
+  770  emacs -nw cmsDriver.py 
+  771  ls
+  772  curl -s https://raw.github.com/cms-sw/genproductions/V03-00-00/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py --retry 2 --create-dirs -o Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  773  ls
+  774  source prod_step2.txt
+  775  more TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  776  ls Configuration/GenProduction/python/EighTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_cff.py
+  777  source prod_step2.txt
+  778  more TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  779  ls Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_cff.py
+  780  source prod_step2.txt
+  781  more TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  782  ls Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  783  grep Hadronizer TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  784  cmmsDriver --help
+  785  cmmsDriver.py --help
+  786  cmsDriver.py --help
+  787  scramv1 b
+  788  more prod_step2.txt
+  789  ls Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  790  mkdir ../Configuration/GenProduction
+  791  mkdir ../Configuration/GenProduction/python
+  792  mkdir ../Configuration/GenProduction/python/EightTeV
+  793  cp Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py ../Configuration/GenProduction/python/EightTeV/
+  794  ls
+  795  cp prod_step2.txt ../
+  796  cd ..
+  797  ls
+  798  source prod_step2.txt 
+  799  more TOP-Summer12-00033_GEN_PYTHIA_cfg.py
+  800  emacs -nws  prod_step2.txt 
+  801  emacs -nw  prod_step2.txt 
+  802  source prod_step2.txt 
+  803  emacs -nw TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  804  ls
+  805  emacs -nw TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  806  cmsDriver.py >& log
+  807  emacs -nw lgo
+  808  emacs -nw log 
+  809  cmsDriver.py --help >& log
+  810  emacs -nw log
+  811  source prod_step2.txt
+  812  emacs -nw TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  813  ls
+  814  ls
+  815  cd Configuration/GenProduction/python/EightTeV/
+  816  mv Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py ../
+  817  cd -
+  818  emacs -nw prod_step2.txt
+  819  source prod_step2.txt
+  820  more TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  821  ls 
+  822  cmsRunTOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  823  cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  824  ls 
+  825  cp PROD_Standalone/TOP-Summer12pLHE-00033_GEN.root ./
+  826  cmsRun TOP-Summer12-00033_GEN_PYTHIA_cfg.py 
+  827  ls 
+  828  gedit prod_testGENSIM_cfg.py &
+  829  source prod_testGENSIM_cfg.py 
+  830  diranalysis 
+  831  ls
+  832  cd ../../../../
+  833  ls
+  834  gedit prod_testGENSIM_cfg.txt prod_testGENSIM_cfg.py &
+  835  source prod_testGENSIM_cfg.tx
+  836  source prod_testGENSIM_cfg.txt
+  837  diranalysis 
+  838  ls 
+  839  cd ../../../../
+  840  ls
+  841  cmsenv
+  842  source prod_testGENSIM_cfg.txt
+  843  diranalysis 
+  844  cd ../../../../
+  845  ls 
+  846  cmsenv
+  847  gedit prod_testGENSIM_cfg.txt &
+  848  vim prod_step2.txt
+  849  rm prod_testGENSIM_cfg.py
+  850  source prod_testGENSIM_cfg.txt
+  851  cmsRun TOP-Summer12-00247_1_cfg.py 
+  852  ls
+  853  rm -rf Configuration
+  854  ls
+  855  source prod_testGENSIM_cfg.txt
+  856  cmsRun TOP-Summer12-00247_1_cfg.py
+  857  ls 
+  858  edmDumpEventContent TOP-Summer12-00247.root 
+  859  ls
+  860  rm TOP-Summer12-00033_GEN_PYTHIA.root TOP-Summer12-00033_GEN_PYTHIA_cfg.py prod_step2.txt~ TOP-Summer12-00247_1_cfg.py~ prod_testGENSIM_cfg.txt~ 
+  861  ls
+  862  mv prod_testGENSIM_cfg.txt script_prod_TOPSUMMER.txt
+  863  rm TOP-Summer12pLHE-00033_GEN.root prod_step2.txt
+  864  ls
+  865  ls 
+  866  cp script_prod_TOPSUMMER.txt script_test_prod.txt
+  867  source script_test_prod.txt
+  868  cmsRun test_prod_GENSIM_cfg.py 
+  869  ls
+  870  vim  Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTuneZ2star_8TeV_madgraph_tauola_cff.py
+  871  curl -s https://raw.github.com/cms-sw/genproductions/V03-00-00/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py --retry 2 --create-dirs -o Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py 
+  872  ls 
+  873  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py 
+  874  rm Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py 
+  875  gedit Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py &
+  876  ls
+  877  ls 
+  878  edmDumpEventContent test_prod_GENSIM.root 
+  879  ls 
+  880  source script_test_prod.txt
+  881  cmsRun test_prod_GENSIM_pythia8_cfg.py 
+  882  ls
+  883  edmDumpEventContent test_prod_GENSIM_pythia8.root 
+  884  diruiwork  
+  885  cd Production/
+  886  ls 
+  887  cmsenv
+  888  cd Delphes/
+  889  ls 
+  890  source setup.sh
+  891  cd ..
+  892  ls 
+  893  ./go.py 
+  894  ls 
+  895  cd Delphes/
+  896  ls 
+  897  make clean && make 
+  898  ls 
+  899  source setup.sh 
+  900  cd ..
+  901  source init.sh 
+  902  ./go.py 
+  903  ls
+  904  du -hs prod_S1_mres1000p0_mchi100p0/prod_0.hepmc 
+  905  cp prod_S1_mres1000p0_mchi100p0/prod_0.hepmc /opt/sbg/data/data4/cms/mbuttign/THESE/Monotop/Analysis_8TeV/CMSSW_5_3_11/src/PROD_Standalone
+  906  ls 
+  907  cd ../essai/Build/
+  908  ls
+  909  vim Exclusion_S1.C 
+  910  diranalysis 
+  911  cd ../../../../
+  912  ls
+  913  cp PROD_Standalone/unweighted_events.lhe ./SM.lhe
+  914  vim prod_step1.txt
+  915  vim PROD/prod_step1.txt
+  916  vim PROD_Standalone/prod_step1.txt 
+  917  vim PROD_Standalone/prod_stepGEN.txt 
+  918  cp PROD_Standalone/prod_stepGEN.txt ./script_stepLHE.txt
+  919  gedit script_stepLHE.txt &
+  920  ls 
+  921  edmDumpEventContent HepMC_GEN.root
+  922  diranalysis 
+  923  cd ../../../../
+  924  ls 
+  925  cmsenv 
+  926  ls PROD/prod_step1.txt 
+  927  vim  PROD/prod_step1.txt 
+  928  ls PROD/
+  929  vim PROD/TOP-Summer12pLHE-00033_1_cfg.py 
+  930  edmDumpEventContent PROD/TOP-Summer12pLHE-00033_1_cfg.py 
+  931  edmDumpEventContent PROD/TOP-Summer12pLHE-00033_1.root 
+  932  ls
+  933  vim script_test_prod.txt
+  934  cp script_test_prod.txt script_test_prod_pythia8.txt 
+  935  gedit script_test_prod.txt &
+  936  cp PROD/TOP-Summer12pLHE-00033_1.root ./LHE.root
+  937  ls 
+  938  source script_test_prod.txt
+  939  cmsRun test_prod_LHEGENSIM_pythia8_cfg.py 
+  940  ls 
+  941  cp PROD_Standalone/HepMC_GEN.root ./
+  942  ls
+  943  cp script_test_prod.txt script_test_prod_LHEGENSIM.txt 
+  944  source script_test_prod.txt
+  945  cmsRun test_prod_HepMCGENSIM_pythia8_cfg.py 
+  946  source /afs/cern.ch/cms/cmsset_default.sh
+  947  source /afs/cern.ch/cms/LCG/LCG-2/UI/cms_ui_env.sh
+  948  xrdcp root://xrootd.unl.edu//store/generator/Summer12/WZJetsTo3LNu_matchingup_8TeV_madgraph/GEN/START53_V7C-v3/00000/3C65AEEC-785B-E311-BCB3-02163E00CB22.root ./LHE_DAS.root
+  949  ls 
+  950  edmDumpEventContent LHE_DAS.root 
+  951  source script_test_prod_LHEGENSIM.txt
+  952  cmsRun test_prod_LHE_DASGENSIM_pythia8_cfg.py
+  953  ls
+  954  edmDumpEventContent test_prod_LHE_DASGENSIM_pythia8.root
+  955  ls
+  956  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py
+  957  source script_test_prod.txt
+  958  cmsRun test_prod_HepMCGENSIM_pythia8_cfg.py
+  959  source script_test_prod.txt
+  960  cmsRun test_prod_HepMCGENSIM_pythia8_cfg.py
+  961  ls
+  962  diff test_prod_LHE_DASGENSIM_pythia8_cfg.py test_prod_LHEGENSIM_pythia8_cfg.py
+  963  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py
+  964  cmsRun test_prod_LHE_DASGENSIM_pythia8_cfg.py
+  965  cmsRun test_prod_LHEGENSIM_pythia8_cfg.py
+  966  source script_stepLHE.txt
+  967  ls 
+  968  cmsRun LHE_SM.py
+  969  edmDumpEventContent LHE_SM.root 
+  970  source script_test_prod_LHEGENSIM.txt
+  971  cmsRun test_prod_LHE_SMGENSIM_pythia8_cfg.py
+  972  vim Configuration/GenProduction/python/EightTeV/Hadronizer_MgmMatchTune4C_8TeV_madgraph_pythia8_cff.py
+  973  cmsRun test_prod_LHE_SMGENSIM_pythia8_cfg.py
+  974  vim test_prod_LHE_SMGENSIM_pythia8_cfg.py
+  975  source script_test_prod_LHEGENSIM.txt
+  976  cmsRun test_prod_LHE_SMGENSIM_pythia8_cfg.py
+  977  edmDumpEventContent test_prod_LHE_SMGENSIM_pythia8.root 
+  978  ls 
+  979  ls PROD_Standalone/*.lhe
+  980  ls PROD/*.lhe
+  981  cp PROD/*.lhe ./Monotop.lhe
+  982  source script_stepLHE.txt
+  983  ls 
+  984  cmsRun LHE_Monotop.py
+  985  soruce script_test_prod_LHEGENSIM.txt
+  986  source script_test_prod_LHEGENSIM.txt
+  987  cmsRun test_prod_LHE_MonotopGENSIM_pythia8_cfg.py
+  988  ls
+  989  cp script_test_prod_LHEGENSIM.txt script_test_prod_HepMCGENSIM.txt 
+  990  source script_test_prod_HepMCGENSIM.txt
+  991  cmsRun test_prod_HepMC_MonotopGENSIM_pythia8_cfg.py
+  992  source script_test_prod_HepMCGENSIM.txt
+  993  cmsRun test_prod_HepMC_MonotopGENSIM_pythia8_cfg.py
+  994  ls
+  995  source script_test_prod_LHEGENSIM.txt
+  996  cmsRun test_prod_LHE_SMGEN_pythia8_cfg.py
+  997  edmDumpEventContent test_prod_LHE_SMGEN_pythia8.root
+  998  edmDumpEventContent HepMC_GEN.root 
+  999  diruiwork  
+ 1000  ls 
+ 1001  cd Production/ 
+ 1002  sl 
+ 1003  ls
+ 1004  history
+ 1005  history > history.txt 

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd ProductionToHepMC/
+source init.sh
+source script_production_S1.txt
+
+cd ../HepMCToRoot/
+source script_HepMCToRoot.txt
+
+cd ../RootToHLT/
+source script_RootToHLT.txt
+
+cd ..

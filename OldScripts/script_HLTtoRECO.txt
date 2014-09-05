@@ -1,0 +1,66 @@
+#!/bin/bash
+
+scenario='1'
+mkdir -p Prod_S$scenario
+cp crab.cfg Prod_S$scenario\/
+cp prod_HepMCtoHLT.py Prod_S$scenario\/
+cd Prod_S$scenario\/
+for j in `seq 1000 100 1000`; do
+	# j is the mass of the resonant particle
+	calcul(){
+		seuil=$(($1 - $2))	# seuil is the available mass for the inv. particle assuming Mtop= 175GeV
+		} 
+	calcul j 175
+	for i in `seq 825 25 $seuil`; do
+		for number in `seq 1 1 100`; do
+			
+			#crab -kill 1 -c S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+			rm -rf S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+			rm -rf S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('\/store\/user\/mbuttign\/Prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0\/prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HepMC.root')/g" prod_HepMCtoHLT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT_n1000.root'),/g" prod_HepMCtoHLT.py
+			sed -ri "s/publish_data_name       =.*/publish_data_name       = JUN2014_LeptonicMonotop_8TeV_prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT/g" crab.cfg
+			sed -ri "s/output_file =.*/output_file = prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT_n1000.root/g" crab.cfg
+			sed -ri "s/ui_working_dir        =.*/ui_working_dir        = S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number/g" crab.cfg
+			sed -ri "s/user_remote_dir         =.*/user_remote_dir         = JUN2014_LeptonicMonotop_8TeV\/prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0/g" crab.cfg
+			crab -create
+			crab -submit -c S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number\/
+		done
+	done
+	for i in `seq 100 25 100`; do
+		for number in `seq 1 1 100`; do
+			
+			#crab -kill 1 -c S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+			rm -rf S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+			rm -rf S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('\/store\/user\/mbuttign\/Prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0\/prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HepMC.root')/g" prod_HepMCtoHLT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT_n1000.root'),/g" prod_HepMCtoHLT.py
+			sed -ri "s/publish_data_name       =.*/publish_data_name       = JUN2014_LeptonicMonotop_8TeV_prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT/g" crab.cfg		
+			sed -ri "s/output_file =.*/output_file = prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT_n1000.root/g" crab.cfg
+			sed -ri "s/ui_working_dir        =.*/ui_working_dir        = S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number/g" crab.cfg
+			sed -ri "s/user_remote_dir         =.*/user_remote_dir         = JUN2014_LeptonicMonotop_8TeV\/prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0/g" crab.cfg
+			crab -create
+			crab -submit -c S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number\/
+		done
+	done
+done
+for j in `seq 500 100 500`; do
+
+	for i in `seq 100 25 100`; do
+		for number in `seq 1 1 100`; do
+			
+			#crab -kill 1 -c S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+			rm -rf S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+			rm -rf S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('\/store\/user\/mbuttign\/Prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0\/prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HepMC.root')/g" prod_HepMCtoHLT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT_n1000.root'),/g" prod_HepMCtoHLT.py
+			sed -ri "s/publish_data_name       =.*/publish_data_name       = JUN2014_LeptonicMonotop_8TeV_prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT/g" crab.cfg
+			sed -ri "s/output_file =.*/output_file = prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\_HLT_n1000.root/g" crab.cfg
+			sed -ri "s/ui_working_dir        =.*/ui_working_dir        = S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number/g" crab.cfg
+			sed -ri "s/user_remote_dir         =.*/user_remote_dir         = JUN2014_LeptonicMonotop_8TeV\/prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0/g" crab.cfg
+			crab -create
+			crab -submit -c S$scenario\_mres$j\p0_mchi$i\p0\_HLT\/S$scenario\_mres$j\p0_mchi$i\p0\_$number\/
+		done
+	done
+done
+cd ..

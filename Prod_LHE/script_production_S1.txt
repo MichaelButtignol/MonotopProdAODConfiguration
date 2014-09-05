@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+scenario='1'
+for j in `seq 1000 100 1000`; do
+	# j is the mass of the resonant particle
+	calcul(){
+		seuil=$(($1 - $2))	# seuil is the available mass for the invisible particle assuming Mtop= 175GeV
+		} 
+	calcul j 175
+	for i in `seq 100 25 100`; do
+		# i is the mass of the invisible particle
+		echo 1n${scenario}n${j}n${i} | tr 'n' '\n' > tmp_S${scenario} && ./go.py < tmp_S${scenario}
+	done
+	for i in `seq 825 25 $seuil`; do
+		# i is the mass of the invisible particle
+		echo 1n${scenario}n${j}n${i} | tr 'n' '\n' > tmp_S${scenario} && ./go.py < tmp_S${scenario}
+	done
+done
+for j in `seq 500 100 500`; do
+	for i in `seq 100 25 100`; do
+		# i is the mass of the invisible particle
+		echo 1n${scenario}n${j}n${i} | tr 'n' '\n' > tmp_S${scenario} && ./go.py < tmp_S${scenario}
+	done
+done

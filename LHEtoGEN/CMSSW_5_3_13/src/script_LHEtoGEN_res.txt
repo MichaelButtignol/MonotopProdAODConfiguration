@@ -1,0 +1,69 @@
+#!/bin/bash
+
+scenario='1'
+cd Prod_S${scenario} 
+for j in `seq 1000 100 1000`; do
+	# j is the mass of the resonant particle
+	calcul(){
+		seuil=$(($1 - $2))	# seuil is the available mass for the inv. particle assuming Mtop= 175GeV
+		} 
+	calcul j 175
+	for i in `seq 825 25 ${seuil}`; do
+		mkdir -p S${scenario}_mres${j}p0_mchi${i}p0
+		cd S${scenario}_mres${j}p0_mchi${i}p0
+                for number in `seq 1 1 100`; do
+			# i is the mass of the invisible particle
+		 	sed -ri "s/9000003/1000022/g" ../../../../../Prod_LHE/Prod_S${scenario}/prod_S${scenario}_mres${j}p0_mchi${i}p0_${number}/prod_S${scenario}_mres${j}p0_mchi${i}p0_${number}.lhe
+		 	sed -ri "s/9000003/1000022/g" ../../Monotop_config.slha
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/..\/..\/Prod_LHE\/Prod_S${scenario}\/prod_S${scenario}_mres${j}p0_mchi${i}p0_${number}\/prod_S${scenario}_mres${j}p0_mchi${i}p0_${number}.lhe')/g" ../../LHE2GEN_pythia8.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('prod_S${scenario}_mres${j}p0_mchi${i}p0_${number}_GEN.root'),/g" ../../LHE2GEN_pythia8.py
+			cmsRun ../../LHE2GEN_pythia8.py
+       	#	lcg-cp prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S${scenario}_GEN/prod_S${scenario}_mres${j}p0_mchi${i}p0/prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root
+                done
+	cd ..
+	done
+done
+
+#for j in `seq 1000 100 1000`; do
+#	# j is the mass of the resonant particle
+#	calcul(){
+#		seuil=$(($1 - $2))	# seuil is the available mass for the inv. particle assuming Mtop= 175GeV
+#		} 
+#	calcul j 175
+#	for i in `seq 100 25 100`; do
+#		mkdir -p S${scenario}_mres${j}p0_mchi${i}p0
+#		cd S${scenario}_mres${j}p0_mchi${i}p0
+#			# i is the mass of the invisible particle
+#		 	sed -ri "s/9000003/1000022/g" ../../../../../Prod_LHE/Prod_S${scenario}/prod_S${scenario}_mres${j}p0_mchi${i}p0/prod_S${scenario}_mres${j}p0_mchi${i}p0.lhe
+#		 	sed -ri "s/9000003/1000022/g" ../../Monotop_config.slha
+#		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/..\/..\/Prod_LHE\/Prod_S${scenario}\/prod_S${scenario}_mres${j}p0_mchi${i}p0\/prod_S${scenario}_mres${j}p0_mchi${i}p0.lhe')/g" ../../LHE2GEN_pythia8.py
+#			sed -ri "s/fileName =.*/fileName = cms.untracked.string('prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root'),/g" ../../LHE2GEN_pythia8.py
+#			cmsRun ../../LHE2GEN_pythia8.py
+		#	lcg-cp prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S${scenario}_GEN/prod_S${scenario}_mres${j}p0_mchi${i}p0/prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root
+#	cd ..
+#	done
+#done
+
+#for j in `seq 500 100 500`; do
+#j=500
+#        # j is the mass of the resonant particle
+#        calcul(){
+#                seuil=$(($1 - $2))      # seuil is the available mass for the inv. particle assuming Mtop= 175GeV
+#                } 
+#        calcul j 175
+#        for i in `seq 100 25 100`; do
+#                mkdir -p S${scenario}_mres${j}p0_mchi${i}p0
+#                cd S${scenario}_mres${j}p0_mchi${i}p0
+#                       # i is the mass of the invisible particle
+#                       sed -ri "s/9000003/1000022/g" ../../../../../Prod_LHE/Prod_S${scenario}/prod_S${scenario}_mres${j}p0_mchi${i}p0/prod_S${scenario}_mres${j}p0_mchi${i}p0.lhe
+#                        sed -ri "s/9000003/1000022/g" ../../Monotop_config.slha
+#                        sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/..\/..\/Prod_LHE\/Prod_S${scenario}\/prod_S${scenario}_mres${j}p0_mchi${i}p0\/prod_S${scenario}_mres${j}p0_mchi${i}p0.lhe')/g" ../../LHE2GEN_pythia8.py
+#                        sed -ri "s/fileName =.*/fileName = cms.untracked.string('prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root'),/g" ../../LHE2GEN_pythia8.py
+#                        cmsRun ../../LHE2GEN_pythia8.py
+               #       lcg-cp prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S${scenario}_GEN/prod_S${scenario}_mres${j}p0_mchi${i}p0/prod_S${scenario}_mres${j}p0_mchi${i}p0_GEN.root
+#        cd ..
+#        done
+#done
+#
+cd ..
+ 

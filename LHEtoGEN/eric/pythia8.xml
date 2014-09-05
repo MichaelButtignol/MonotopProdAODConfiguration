@@ -1,0 +1,15 @@
+<tool name="pythia8" version="153-michael">
+  <lib name="pythia8"/>
+  <lib name="hepmcinterface"/>
+  <client>
+    <environment name="PYTHIA8_BASE" default="/opt/sbg/data/data1/cms/mbuttign/THESE/Monotop/Prod/CMSSW_5_3_11/src/Prod_signal/eric/pythia8153"/>
+    <environment name="LIBDIR" default="$PYTHIA8_BASE/lib"/>
+    <environment name="INCLUDE" default="$PYTHIA8_BASE/include"/>
+  </client>
+  <runtime name="PYTHIA8DATA" value="$PYTHIA8_BASE/xmldoc"/>
+  <use name="cxxcompiler"/>
+  <use name="hepmc"/>
+  <use name="pythia6"/>
+  <use name="clhep"/>
+  <use name="lhapdf"/>
+</tool>

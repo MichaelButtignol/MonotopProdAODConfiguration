@@ -1,0 +1,18 @@
+#!/bin/bash
+
+scenario='4'
+cd Prod_S$scenario\/ 
+for j in `seq 200 100 200`; do
+	# j is the mass of the invisible particle
+		mkdir -p S${scenario}_mchi${j}p0
+		cd S${scenario}_mchi${j}p0
+		for number in `seq 2 1 2`; do
+			sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/ProductionToHepMC\/prod_S${scenario}_mchi${j}p0_${number}\/prod_0.hepmc')/g" ../../HepMCtoROOT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S${scenario}_mchi${j}p0_${number}_HepMC.root')/g" ../../HepMCtoROOT.py
+			cmsRun ../../HepMCtoROOT.py
+			lcg-cp prod_S${scenario}_mchi${j}p0_${number}_HepMC.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S${scenario}\/prod_S${scenario}_mchi${j}p0\/prod_S${scenario}_mchi${j}p0_${number}_HepMC.root
+		done
+	cd ..
+done
+
+cd ..

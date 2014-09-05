@@ -1,0 +1,84 @@
+#************************************************************
+#*                        MadGraph 5                        *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 1.5.5                 2012-11-18         *
+#*                                                          *
+#*    The MadGraph Development Team - Please visit us at    *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph 5                *
+#*                                                          *
+#*     run as ./bin/mg5  filename                           *
+#*                                                          *
+#************************************************************
+set group_subprocesses Auto
+set ignore_six_quark_processes False
+set gauge unitary
+set complex_mass_scheme False
+import model MonoTops_UFO -modelname
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define tt = t t~
+generate phic > tt fmet MT1=0 MT2=0 MT3=2 MT4=0
+output /grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/prod_S1_mres2000p0_mchi1500p0/decay
+quit
+Traceback (most recent call last):
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/extended_cmd.py", line 815, in onecmd
+    return self.onecmd_orig(line, **opt)
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/extended_cmd.py", line 808, in onecmd_orig
+    return func(arg, **opt)
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/master_interface.py", line 294, in do_quit
+    return self.cmd.do_quit(self, *args, **opts)
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/madgraph_interface.py", line 1856, in do_quit
+    self.do_install('update --mode=mg5_end')
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/master_interface.py", line 279, in do_install
+    return self.cmd.do_install(self, *args, **opts)
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/madgraph_interface.py", line 3024, in do_install
+    self.install_update(args, wget=program)
+  File "/grid_mnt/opt__sbg__data__safe1/cms/mbuttign/STAGE2/ProdMonotop/MadGraph5_v1_5_3/madgraph/interface/madgraph_interface.py", line 3239, in install_update
+    int(time.time()) - 3600 * 24 * (self.options['auto_update'] -1))
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+                          MadGraph Options    
+                          ----------------    
+        complex_mass_scheme 	:	False
+               stdout_level 	:	20 (user set)
+         group_subprocesses 	:	Auto
+  ignore_six_quark_processes 	:	False
+                      gauge 	:	unitary
+
+                         MadEvent Options    
+                          ----------------    
+     automatic_html_opening 	:	True
+                    nb_core 	:	None
+                   run_mode 	:	2
+
+                      Configuration Options    
+                      ---------------------    
+                web_browser 	:	None
+                text_editor 	:	None
+          cluster_temp_path 	:	None
+              cluster_queue 	:	None
+           madanalysis_path 	:	./MadAnalysis
+               pythia8_path 	:	None (user set)
+            pythia-pgs_path 	:	./pythia-pgs
+                    td_path 	:	./td
+               delphes_path 	:	./Delphes
+                auto_update 	:	7
+               cluster_type 	:	condor
+           fortran_compiler 	:	None
+        exrootanalysis_path 	:	./ExRootAnalysis
+                 eps_viewer 	:	None
+                    timeout 	:	60

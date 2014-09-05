@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#TASKS="1000p0_mchi825 1000p0_mchi100 500p0_mchi100"
+TASKS="1000p0_mchi825"
+scenario='1'
+
+mkdir -p Prod_S$scenario
+cp crab.cfg Prod_S$scenario\/
+cp prod_HepMCtoRECO.py Prod_S$scenario\/
+cd Prod_S$scenario\/
+
+for BENCHMARK in $TASKS
+do
+	for number in `seq 1 1 10`
+	do
+			
+		crab -kill 1 -c S${scenario}_mres${BENCHMARK}p0_RECO\/S${scenario}_mres${BENCHMARK}p0_$number
+		rm -rf S${scenario}_mres${BENCHMARK}p0_RECO\/S${scenario}_mres${BENCHMARK}p0_${number}
+		rm -rf S${scenario}_mres${BENCHMARK}p0_RECO\/S${scenario}_mres${BENCHMARK}p0_${number}
+	 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('\/store\/user\/mbuttign\/Prod_S${scenario}\/prod_S${scenario}_mres${BENCHMARK}p0\/prod_S${scenario}_mres${BENCHMARK}p0_${number}_HepMC.root')/g" prod_HepMCtoRECO.py
+		sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S${scenario}_mres${BENCHMARK}p0_${number}_RECO_n1000.root'),/g" prod_HepMCtoRECO.py
+		sed -ri "s/publish_data_name       =.*/publish_data_name       = JUN2014_LeptonicMonotop_8TeV_prod_S${scenario}_mres${BENCHMARK}p0_${number}_RECO/g" crab.cfg
+		sed -ri "s/output_file =.*/output_file = prod_S${scenario}_mres${BENCHMARK}p0_${number}_RECO_n1000.root/g" crab.cfg
+		sed -ri "s/ui_working_dir        =.*/ui_working_dir        = S${scenario}_mres${BENCHMARK}p0_RECO\/S${scenario}_mres${BENCHMARK}p0_${number}/g" crab.cfg
+		sed -ri "s/user_remote_dir         =.*/user_remote_dir         = JUN2014_LeptonicMonotop_8TeV\/prod_S${scenario}\/prod_S${scenario}_mres${BENCHMARK}p0/g" crab.cfg
+		crab -create
+		crab -submit -c S${scenario}_mres${BENCHMARK}p0_RECO\/S${scenario}_mres${BENCHMARK}p0_${number}\/
+	done
+done
+
+cd ..

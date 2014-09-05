@@ -1,0 +1,59 @@
+#!/bin/bash
+
+scenario='1'
+cd Prod_S$scenario\/ 
+for j in `seq 1000 100 1000`; do
+	# j is the mass of the resonant particle
+	calcul(){
+		seuil=$(($1 - $2))	# seuil is the available mass for the inv. particle assuming Mtop= 175GeV
+		} 
+	calcul j 175
+	for i in `seq 825 25 $seuil`; do
+		mkdir -p S$scenario\_mres$j\p0_mchi$i\p0\_HLT
+		cd S$scenario\_mres$j\p0_mchi$i\p0\_HLT
+		for number in `seq 1 1 100`; do
+			# i is the mass of the invisible particle
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/ProductionToHepMC\/prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\/prod_0.hepmc')/g" ../../HepMCtoROOT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root')/g" ../../HepMCtoROOT.py
+			cmsRun ../../HepMCtoROOT.py
+			lcg-cp prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0\/prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root
+		done
+	cd ..
+	done
+done
+
+for j in `seq 1000 100 1000`; do
+	for i in `seq 100 25 100`; do
+		mkdir -p S$scenario\_mres$j\p0_mchi$i\p0\_HLT
+		cd S$scenario\_mres$j\p0_mchi$i\p0\_HLT
+		for number in `seq 1 1 100`; do
+			# i is the mass of the invisible particle
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/ProductionToHepMC\/prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\/prod_0.hepmc')/g" ../../HepMCtoROOT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root')/g" ../../HepMCtoROOT.py
+			cmsRun ../../HepMCtoROOT.py
+			lcg-cp prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0\/prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root
+		done
+	cd ..
+	done
+done
+
+for j in `seq 500 100 500`; do
+	# j is the mass of the resonant particle
+	calcul(){
+		seuil=$(($1 - $2))	# seuil is the available mass for the inv. particle assuming Mtop= 175GeV
+		} 
+	calcul j 175
+	for i in `seq 100 25 100`; do
+		mkdir -p S$scenario\_mres$j\p0_mchi$i\p0\_HLT
+		cd S$scenario\_mres$j\p0_mchi$i\p0\_HLT
+		for number in `seq 1 1 100`; do
+			# i is the mass of the invisible particle
+		 	sed -ri "s/fileNames =.*/fileNames = cms.untracked.vstring('file:..\/..\/..\/ProductionToHepMC\/prod_S$scenario\_mres$j\p0_mchi$i\p0\_$number\/prod_0.hepmc')/g" ../../HepMCtoROOT.py
+			sed -ri "s/fileName =.*/fileName = cms.untracked.string('file:prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root')/g" ../../HepMCtoROOT.py
+			cmsRun ../../HepMCtoROOT.py
+			lcg-cp prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root srm://sbgse1.in2p3.fr:8446/dpm/in2p3.fr/home/cms/phedex/store/user/mbuttign/Prod_S$scenario\/prod_S$scenario\_mres$j\p0_mchi$i\p0\/prod_S$scenario\_mres$j\p0_mchi$i\p0_$number\_HepMC.root
+		done
+	cd ..
+	done
+done
+cd ..
